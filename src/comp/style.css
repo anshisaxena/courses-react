@@ -1,0 +1,110 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #505050;
+   
+}
+
+.topcard{
+    background-color: #505050;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    padding: 15px;
+    background-color: black;
+    color: beige;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.title{
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+.text{
+    margin: 5px;
+    padding: 5px;
+}
+.image{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.like{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    display: grid;
+    place-items: center;
+
+}
+.btn:hover{
+    opacity: 0.5;
+}
+img{
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.card{
+    border-radius: 15px;
+
+    width: 270px;
+    background-color: #22313f;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 100%;
+    background-color:#505050;
+    align-items: center;
+    justify-content: center;
+   gap: 18px;
+}
+img{
+    height: 200px;
+    width: 250px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 1000px;
+   
+}
+.nav{
+    background-color:#22313f;
+    
+    color:white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+   
+}
+.btn:hover{
+    opacity: 0.8;
+}
